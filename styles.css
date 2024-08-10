@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 20px;
+}
+
+.logo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.logo-grid a {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+}
+
+.logo-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logo-grid a:hover {
+    transform: scale(1.05);
+}
